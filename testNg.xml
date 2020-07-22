@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SmokeTest_Suite" parallel="false" preserve-order="true">
+    <parameter name="browser" value="chrome_normal"/>
+    <parameter name="baseurl" value="prod"/>
+
+    <listeners>
+        <listener class-name="base.RetryListenerClass" />
+    </listeners>
+
+    <test name="Smoke test - chrome browser">
+
+        <classes>
+            <class name="LoginPage.LoginTest">
+                <methods>
+                    <include name="validateLogin1"/>
+                    <include name="validateLogin2"/>
+                    <exclude name="test3"/>
+                </methods>
+            </class>
+
+            <class name="HomePage.HomePageTest">
+                <methods>
+                    <include name="composeTest1"/>
+                    <exclude name="test2"/>
+                    <exclude name="test3"/>
+                </methods>
+            </class>
+
+            <class name="SignupPage.SignupTest">
+                <methods>
+                    <exclude name="test1"/>
+                    <exclude name="test2"/>
+                    <exclude name="test3"/>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+</suite>

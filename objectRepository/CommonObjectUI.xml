@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+    <!-- Login Page locators -->
+    <entry key="emailID_Field" type="id">login-username</entry>
+    <entry key="Nextbuttn1" type="id">login-signin</entry>
+    <entry key="Nextbuttn2" type="name">verifyPassword</entry>
+    <entry key="password_Field" type="css">#login-passwd</entry>
+    <entry key="errormsg" type="xpath">//p[contains(text(),'Invalid password')]</entry>
+    <entry key="emailIcon" type="id">header-mail-button</entry>
+    <entry key="homefield" type="xpath">//span[text()='Home']</entry>
+
+    <entry key="headersignlink" type="id">header-signin-link</entry>
+
+    <entry key="headerAfterlogin" type="css">button[id*='header-profile-button']</entry>
+    <entry key="headermailbutton" type="id">header-mail-button</entry>
+
+
+    <!-- Home page Locators -->
+
+</locators>

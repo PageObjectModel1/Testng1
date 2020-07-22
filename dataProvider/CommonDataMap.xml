@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<locators>
+    <!-- Login Page test data -->
+    <entry key="emailId" type="data">manjunath.quality</entry>
+    <entry key="password" type="data">123@123.Com</entry>
+    <entry key="emailId1" type="data">manjunath.quality1@gmail.com</entry>
+    <entry key="emailId2" type="data">manjunath.quality2@gmail.com</entry>
+    <entry key="emailId3" type="data">manjunath.quality3@gmail.com</entry>
+
+    <entry key="loginpageTitle" type="data">Yahoo</entry>
+    <entry key="homepageTitle" type="data">manjunath.quality@yahoo.com</entry>
+    <entry key="loginpageurl" type="data">https://in.yahoo.com</entry>
+    <entry key="gitpassword" type="data">git@123.com</entry>
+
+    <!-- Home Page data -->
+
+
+    <!-- Signup Page data -->
+
+</locators>

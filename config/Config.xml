@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+
+
+<properties>
+    <entry key="prod">https://in.yahoo.com/</entry>
+    <entry key="pre-prod">https://in.yahoo.net/</entry>
+
+    <entry key="CommonDataMap">dataProvider/CommonDataMap.xml</entry>
+    <entry key="CommonObjectUI">objectRepository/CommonObjectUI.xml</entry>
+    <entry key="MAX_RETRY_COUNT">2</entry>
+
+
+
+</properties>
