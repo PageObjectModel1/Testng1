@@ -12,6 +12,7 @@
     <entry key="homepageTitle" type="data">manjunath.quality@yahoo.com</entry>
     <entry key="loginpageurl" type="data">https://in.yahoo.com</entry>
     <entry key="gitpassword" type="data">git@123.com</entry>
+    <entry key="gitusername" type="data">PageObjectModel1</entry>
 
     <!-- Home Page data -->
 
